@@ -4,8 +4,7 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  let imgs = $('img');
-  return $('img')[(imgs.length - 1)];
+  return $('img:last-child');
 }
 
 function ninjaBabySelector() {

@@ -7,3 +7,7 @@ function lastImageSelector() {
   let imgs = $('img');
   return imgs[(imgs.length - 1)];
 }
+
+function ninjaBabySelector() {
+  return $("#")
+}
